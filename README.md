@@ -4,14 +4,6 @@ This project implements a simple behavior tree system for controlling enemy AI i
 - **Fleeing**: The enemy runs away from the player when the player is within a certain distance.
 - **Searching**: The enemy moves towards the player if the player is within a detectable range.
 
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Behavior Tree Design](#behavior-tree-design)
-- [Scripts](#scripts)
-- [How to Use](#how-to-use)
-- [Setup in Unity](#setup-in-unity)
-- [License](#license)
-
 ## Project Structure
 This project uses a simple behavior tree structure that determines how the enemy will behave based on the player's position. The structure is as follows:
 - **Behavior Tree Root**: A `Selector` which tries different behaviors.
